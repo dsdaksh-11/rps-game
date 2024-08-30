@@ -1,0 +1,95 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    height: 6rem;
+    background-color: rgb(20, 14, 55);
+    color: white;
+    line-height: 6rem;
+    text-align: center;
+}
+
+.choices {
+    display:flex;
+    justify-content: center;
+    margin-top: 5rem;
+    gap: 2rem;
+    font-size: 2.5rem;
+}
+
+.choice {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    color: white;
+    border:2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choice:hover {
+    cursor: pointer;
+    box-shadow: 0 0 20px 0 rgb(89, 79, 79);
+}
+
+#rock {
+    background-color: rgb(202, 125, 211);
+}
+
+#paper {
+    background-color: rgb(126, 204, 169);
+}
+
+#scissors {
+    background-color: rgb(201, 172, 119);
+}
+
+
+.score {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    font-size:2.5rem;
+    gap:3rem;
+}
+
+.score-user {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+
+.score-comp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+
+.msg {
+    color: white;
+    background-color: rgb(79, 78, 78);
+    font-size: 2rem;
+    padding: 1rem;
+    border-radius: 10px;
+
+}
+
+.Message {
+    display:flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+#usersc{
+    font-size: 3.5rem;
+}
+
+#compsc{
+    font-size: 3.5rem;
+}
